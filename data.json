@@ -1,0 +1,35 @@
+[
+{"name":"hôtel QUICK Palace Tours Nord Opens in new window"
+,"duration":"10",
+  "maxGroupSize":"4",
+  "difficulty":"easy",
+  "ratingsAverage":4.1,
+  "price":430,
+  "summary":"This hotel is located 3 mi from Tours city center, in the business district. It has a sauna, a fitness center and en suite guest rooms with flat-screen TV. "
+  ,
+  "imageCover":"tour1.jpg"
+},
+{
+"name":"Hilton Garden Inn Tours Centre, France"
+,"duration":"7",
+  "maxGroupSize":"7",
+  "difficulty":"medium",
+  "ratingsAverage":3.8,
+  "price":250,
+  "summary":"Featuring a bar, terrace and views of river, Hampton by Hilton Tours Centre, France is located in Tours, a 2-minute walk from Hotel Goüin Museum.   "
+  ,
+  "imageCover":"tour2.jpg"
+},
+{
+"name":"CHEZ LÉA Vieux Tours parking terrasse jardin"
+,"duration":"11",
+  "maxGroupSize":"4",
+  "difficulty":"difficult",
+  "ratingsAverage":4.9,
+  "price":600,
+  "summary":"Best Western Plus l'Artist Hotel is a 10-minute walk from the Old City center of Tours and 492 feet from the central train station.   "
+  ,
+  "imageCover":"tour3.jpg"
+}
+
+]

@@ -31,5 +31,32 @@
   ,
   "imageCover":"tour3.jpg"
 }
+]
 
+
+// users enum: ['user', 'guide', 'lead-guide', 'admin'],
+
+
+[
+     {
+          "name": "Lucas",
+          "email":"Lucas@gmail.com",
+          "role":"admin",
+          "password":"admin123",
+          "passwordConfirm":"admin123",
+     },
+     {
+          "name": "Lura",
+          "email":"Lura@gmail.com",
+          "role":"user",
+          "password":"user123",
+          "passwordConfirm":"user123",
+     },
+     {
+          "name": "test",
+          "email":"test@gmail.com",
+          "role":"user",
+          "password":"test123",
+          "passwordConfirm":"test123",
+     }
 ]

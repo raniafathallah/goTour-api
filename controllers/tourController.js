@@ -38,12 +38,11 @@ exports.createTour=catchAsync(async(req,res)=>{
                    });
 });  
 
-exports.getTour= ( popOptions) => catchAsync(async (req, res, next) => {
+exports.getTour=catchAsync(async (req, res, next) => {
 
      console.log(`get tour ${req.params.id} `);
           let query = Tour.findById(req.params.id);
       
-          if(popOptions) query = query.populate(popOptions);
       
           const doc = await query;
       

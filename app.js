@@ -16,11 +16,11 @@ App.use((req,res,next)=>{
 req.resTime=new Date().toISOString();
 console.log(req);
 next();
-});   
-
+});    
+ 
 const tourRouter = require('./routes/tourRoutes');
-
+const userRouter =require('./routes/userRoutes');
 App.use('/api/v1/tours', tourRouter);
-
+App.use('/api/v1/users', userRouter);
 
 module.exports = App;

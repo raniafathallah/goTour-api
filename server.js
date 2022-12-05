@@ -7,7 +7,6 @@ dotenv.config();
 
 process.on('uncaughtException', err => {
     console.log(err.name, err.message);
-
     console.log('Shutting down program...');
     process.exit(1);
 });
